@@ -7,6 +7,7 @@ const SearchBar = ({ setPokemonList, PokemonList }) => {
 
   const debounceSearch = debounce((e) => {
     const initialPika = [...PokemonList];
+    
     setQuery(e.target.value);
     console.log("Searching...");
     if(query.trim()!==""){

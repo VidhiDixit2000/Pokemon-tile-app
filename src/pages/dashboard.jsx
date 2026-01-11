@@ -2,7 +2,7 @@ import React, { useEffect,useState,useContext } from 'react';
 import PokemonCard from "../components/PokemonCard";
 import styles from "../styles/Dashboard.module.css";
 import SearchBar from '../components/SearchBar';
-import SearchBarstyles from "../styles/SearchBar.module.css";
+
 
 
 const Dashboard = () => {
